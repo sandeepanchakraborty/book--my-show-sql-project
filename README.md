@@ -57,4 +57,4 @@ INNER JOIN Theatre t ON s.theatre_id = t.theatre_id
 INNER JOIN theatreLocation l ON t.location_id = l.location_id
 INNER JOIN Movie m ON s.movie_id = m.movie_id
 INNER JOIN movieShowDate d ON s.date_id = d.date_id
-WHERE d.show_date = '2024-03-26' AND t.theatre_name = 'PVR' AND l.city = 'Mumbai' AND l.area = 'Colaba';
+WHERE d.show_date = '2024-03-26' AND t.theatre_name = 'CINEPOLIS' AND l.city = 'Guwahati' AND l.area = 'G.S ROAD';
